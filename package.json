@@ -1,0 +1,17 @@
+{
+    "name": "recast",
+    "description": "Lightweight online object processing service based on Cloudflare workers.",
+    "version": "0.0.1",
+    "author": "Peng Hou <houpengg@outlook.com>",
+    "license": "MIT",
+    "private": true,
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "dependencies": {
+        "@cf-wasm/photon": "^0.1.23",
+        "aws4fetch": "^1.0.19"
+    }
+}
